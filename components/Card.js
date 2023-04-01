@@ -4,9 +4,9 @@ export default function Card() {
   return (
     <div>
         <h1> <img src="../images/katie-zaferes.png" alt="photo" /></h1>
-        <img src="../images/star.png" alt="" />
-        <p> </p>
-        <p></p>
+        
+        <p> <img src="../images/star.png" alt="star icon picture" /> 5.0 (30) USA   </p>
+        <p> From $125 / person </p>
 
     </div>
   )
