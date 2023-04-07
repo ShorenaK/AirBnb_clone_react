@@ -3,6 +3,7 @@ import React from 'react'
 export default function Card(props) {
   return (
     <div className='card'>
+       {props.openSpot === 0 && <div className="card--badge">SOLD OUT</div>}
          <img src={`../images/{props.img}`} alt="photo"  className='card__image'/>
         <div className='card__stats'> 
          <img src="../images/star.png" alt="star icon picture" className="card__star"/> 
