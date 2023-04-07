@@ -18,10 +18,8 @@ export default function App(){
     return (
         <div> 
             <Navbar />
-            <Hero /> 
            {cards}
-        </div>
-
+       </div>
     )
 
 }
